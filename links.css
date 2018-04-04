@@ -1,0 +1,123 @@
+/*  Fonts  */
+@font-face {
+        font-family: "Minecrafter";
+        src: url(Minecrafter.Reg.tff);
+}
+
+/* Whole Page/Body  */
+body {
+  font-family: "Minecrafter";
+  src: url(Minecrafter.Reg.tff);
+ padding: 10px 10px 10px 10px;
+ color: white;
+ text-align: left;
+}
+
+/*  Heading  */
+h1 {
+    text-align: center;
+}
+
+/*  Subheading  */
+h2 {
+    padding: 0px 0px 0px 15px;  
+    text-align: left;
+}
+
+.lines {
+    float: left;
+}
+
+/*  Gallery Div Square  */
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*  Hover on Gallery Div Square  */
+.gallery:hover {
+    border: 1px solid #777;
+    background-color: white;
+}
+
+/*  Image  */
+.gallery img {
+    height: 150px;
+    width: auto;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+ /* text-align: center;
+    vertical-align: middle;*/
+}
+
+/*  Captions  */
+.desc {
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.desc:hover {
+    /*background-color: silver;*/
+}
+.gallery:hover .desc {
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+
+#back {
+  margin: 15px;
+}
+
+body {
+  background-image: url(dirt.jpg);
+}
+
+/*
+
+dropdown css
+
+*/
+
+.gallery {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+}
+
+.dropdown-content a:hover {
+    background-color: silver;
+}
+
+.gallery:hover .dropdown-content {
+    display: block;
+}
+
+.gallery:hover .dropbtn {
+    background-color: white;
+}
+*/
